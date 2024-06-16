@@ -1,3 +1,7 @@
+<script>
+    import league from '$lib/league_photo.jpg';
+</script>
+
 <svelte:head>
 	<title>Home</title>
 	<meta name="description" content="The A-Team Website" />
@@ -5,3 +9,5 @@
 
 <h1>The A-Team</h1>
 <h2>RoboCup SSL</h2>
+
+<img src={league} alt="RoboCup SSL League 2023"/>
